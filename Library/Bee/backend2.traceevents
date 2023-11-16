@@ -1,0 +1,329 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1696983305817666, "dur":52, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696983305817756, "dur":15617, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696983305833376, "dur":78, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696983305833489, "dur":949, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696983305834577, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1696983305834711, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1696983305834815, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1696983305836214, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1696983305836543, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1696983305836712, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1696983305836773, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1696983305837030, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1696983305837331, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1696983305837756, "dur":101, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1696983305837909, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1696983305838223, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":0, "ts":1696983305838587, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":0, "ts":1696983305839000, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":0, "ts":1696983305839119, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":0, "ts":1696983305839476, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":0, "ts":1696983305839672, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":0, "ts":1696983305834518, "dur":6083, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696983305840602, "dur":140534, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696983305981137, "dur":316, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696983305981454, "dur":120, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696983305981776, "dur":1358, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1696983305834344, "dur":6266, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696983305840613, "dur":7043, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696983305849061, "dur":690, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1696983305849755, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1696983305849962, "dur":163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1696983305850322, "dur":309, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305850632, "dur":271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305850905, "dur":146, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305851052, "dur":236, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305851290, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305851491, "dur":212, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305851704, "dur":722, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305852428, "dur":221, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305852650, "dur":668, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305853319, "dur":445, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305853766, "dur":423, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305854190, "dur":465, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305854656, "dur":222, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305854880, "dur":209, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305855090, "dur":210, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305855301, "dur":400, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305855702, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305855903, "dur":206, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305856111, "dur":208, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Gamening\\UProjects\\SWTG%20Song%20Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1696983305856387, "dur":268, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Player2e22e527-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1696983305849754, "dur":7110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1696983305857121, "dur":64, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1696983305857580, "dur":115250, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1696983305979941, "dur":204, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1696983305979941, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1696983305980161, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1696983305834415, "dur":6201, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696983305840627, "dur":1402, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696983305842030, "dur":5652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696983305847712, "dur":343, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1696983305847683, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1696983305848057, "dur":607, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696983305852158, "dur":3708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1696983305855935, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1696983305856054, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1696983305857186, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1696983305859884, "dur":8902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696983305868947, "dur":7418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696983305876515, "dur":5566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696983305882226, "dur":5877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696983305888171, "dur":6954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696983305895202, "dur":6744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696983305902057, "dur":6984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1696983305909118, "dur":3983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1696983305913607, "dur":67579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696983305835116, "dur":5611, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696983305840728, "dur":6932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696983305847760, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1696983305847671, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1696983305847883, "dur":642, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1696983305849597, "dur":6979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1696983305857303, "dur":8146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696983305865560, "dur":8453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696983305874089, "dur":6237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696983305880475, "dur":5945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696983305886487, "dur":6163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696983305892714, "dur":7460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696983305900253, "dur":7276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696983305907609, "dur":4683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1696983305912401, "dur":68733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696983305834656, "dur":5982, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696983305840643, "dur":1918, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696983305842562, "dur":5123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696983305847686, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1696983305848109, "dur":606, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696983305852326, "dur":3500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1696983305855901, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1696983305855899, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1696983305856020, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1696983305856406, "dur":2532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1696983305859077, "dur":8532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696983305867696, "dur":7660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696983305875496, "dur":6114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696983305881800, "dur":5816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696983305887684, "dur":6668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696983305894443, "dur":6714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696983305901259, "dur":7061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1696983305908459, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1696983305911501, "dur":4475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1696983305916159, "dur":64983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696983305834684, "dur":5964, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696983305840652, "dur":2212, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696983305842865, "dur":4802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696983305847695, "dur":518, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1696983305847671, "dur":543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1696983305848214, "dur":536, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1696983305853479, "dur":3086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1696983305857385, "dur":10304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696983305867761, "dur":7612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696983305875501, "dur":6142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696983305881804, "dur":5863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696983305887774, "dur":6826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696983305894674, "dur":6616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696983305901378, "dur":7518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1696983305908983, "dur":7142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1696983305916325, "dur":64858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696983305834773, "dur":5883, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696983305840659, "dur":1412, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696983305842071, "dur":5599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696983305847693, "dur":463, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1696983305847673, "dur":484, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1696983305848158, "dur":570, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1696983305854547, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1696983305857589, "dur":6141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696983305863829, "dur":9545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696983305873463, "dur":6762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696983305880353, "dur":5842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696983305886291, "dur":5828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696983305892190, "dur":7100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696983305899410, "dur":7022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696983305906507, "dur":5706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1696983305912330, "dur":3798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1696983305916300, "dur":64895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696983305834797, "dur":5867, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696983305840667, "dur":1423, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696983305842090, "dur":5589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696983305847680, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1696983305847961, "dur":467, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696983305850925, "dur":4746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1696983305855741, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1696983305855870, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696983305860114, "dur":479, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1696983305856383, "dur":4220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1696983305860700, "dur":7414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696983305868198, "dur":7379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696983305875717, "dur":6077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696983305882114, "dur":5797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696983305887999, "dur":6935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696983305895051, "dur":6741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696983305901886, "dur":7135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1696983305909110, "dur":4146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1696983305913729, "dur":67459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696983305834841, "dur":5830, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696983305840674, "dur":1279, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696983305841953, "dur":5724, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696983305847750, "dur":430, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1696983305847680, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1696983305848182, "dur":561, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696983305852109, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1696983305856069, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696983305856067, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696983305856192, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696983305856669, "dur":9590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696983305866356, "dur":7999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696983305874437, "dur":6679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696983305881267, "dur":5725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696983305887078, "dur":6631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696983305893797, "dur":6799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696983305900686, "dur":7067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696983305907824, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696983305907822, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696983305907892, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1696983305908031, "dur":17132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1696983305925220, "dur":55964, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696983305834905, "dur":5774, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696983305840682, "dur":1893, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696983305842575, "dur":5094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696983305847671, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1696983305847995, "dur":604, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1696983305854550, "dur":2602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1696983305857579, "dur":6217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696983305863874, "dur":8597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696983305872555, "dur":7013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696983305879688, "dur":6151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696983305885912, "dur":6048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696983305892050, "dur":7362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696983305899517, "dur":6894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696983305906488, "dur":5361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1696983305911956, "dur":4301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1696983305916398, "dur":64792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696983305834949, "dur":5737, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696983305840687, "dur":6976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696983305847670, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1696983305847954, "dur":520, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696983305851626, "dur":4353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1696983305856055, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696983305856053, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696983305856201, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1696983305856790, "dur":3080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696983305859997, "dur":8570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696983305868652, "dur":7751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696983305876546, "dur":5808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696983305882450, "dur":6075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696983305888624, "dur":7435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696983305896165, "dur":6941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696983305903221, "dur":6422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1696983305909740, "dur":5858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1696983305915746, "dur":65432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696983305834980, "dur":5714, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696983305840695, "dur":6978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696983305847677, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1696983305848089, "dur":657, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696983305854434, "dur":2565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1696983305857717, "dur":7839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696983305865665, "dur":8226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696983305873970, "dur":6352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696983305880471, "dur":5844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696983305886404, "dur":6378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696983305892858, "dur":7492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696983305900428, "dur":7073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696983305912357, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1696983305907571, "dur":4847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1696983305912490, "dur":68643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696983305835001, "dur":5703, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696983305840704, "dur":6980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696983305847685, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1696983305847987, "dur":591, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696983305855954, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1696983305852096, "dur":3924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1696983305856104, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":12, "ts":1696983305856103, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game.exe" }}
+,{ "pid":12345, "tid":12, "ts":1696983305856260, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game.exe" }}
+,{ "pid":12345, "tid":12, "ts":1696983305858208, "dur":8678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696983305867001, "dur":7732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696983305874858, "dur":6268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696983305881272, "dur":5693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696983305887044, "dur":6644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696983305893770, "dur":6832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696983305900682, "dur":6966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1696983305907708, "dur":246, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\com.unity.services.core\\UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1696983305907707, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1696983305908323, "dur":1567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":12, "ts":1696983305910125, "dur":5829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":12, "ts":1696983305916109, "dur":65076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1696983305835027, "dur":5684, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1696983305840711, "dur":6947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1696983305849214, "dur":599, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":13, "ts":1696983305849816, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/app.info" }}
+,{ "pid":12345, "tid":13, "ts":1696983305851606, "dur":3009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/app.info" }}
+,{ "pid":12345, "tid":13, "ts":1696983305854621, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":13, "ts":1696983305854619, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1696983305854777, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1696983305855510, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1696983305857769, "dur":7914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":13, "ts":1696983305865787, "dur":8276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":13, "ts":1696983305874150, "dur":6321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1696983305880591, "dur":5769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1696983305886430, "dur":5927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1696983305892437, "dur":7111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1696983305899637, "dur":7059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1696983305906783, "dur":5500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1696983305912393, "dur":68742, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1696983305835055, "dur":5661, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1696983305840717, "dur":6945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1696983305847751, "dur":463, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.8f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":14, "ts":1696983305847670, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":14, "ts":1696983305848216, "dur":548, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1696983305853317, "dur":2524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":14, "ts":1696983305855913, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1696983305856452, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1696983305860082, "dur":309, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1696983305856766, "dur":3637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":14, "ts":1696983305860515, "dur":7734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1696983305868345, "dur":7369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1696983305875854, "dur":6038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1696983305882043, "dur":5824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1696983305887939, "dur":6720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1696983305894732, "dur":6648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1696983305901455, "dur":7023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1696983305908557, "dur":7001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1696983305915708, "dur":65437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1696983305835089, "dur":5633, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1696983305840722, "dur":6943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1696983305847675, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1696983305847884, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1696983305851868, "dur":4302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1696983305856235, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1696983305856813, "dur":4585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":15, "ts":1696983305861513, "dur":7296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1696983305868961, "dur":7264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":15, "ts":1696983305876397, "dur":5816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":15, "ts":1696983305882373, "dur":5958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1696983305888398, "dur":6904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1696983305895383, "dur":6706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1696983305902200, "dur":6969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1696983305909705, "dur":2150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":15, "ts":1696983305912296, "dur":89, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1696983305912389, "dur":4714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1696983305917192, "dur":63996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1696983305834522, "dur":6109, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1696983305840634, "dur":1371, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1696983305842006, "dur":5669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1696983305847679, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1696983305848016, "dur":642, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1696983305855239, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1696983305857531, "dur":8229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":16, "ts":1696983305865836, "dur":8287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1696983305874217, "dur":6179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":16, "ts":1696983305880519, "dur":5740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1696983305886364, "dur":5983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1696983305892445, "dur":7158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1696983305899681, "dur":7101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1696983305906852, "dur":5322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1696983305912327, "dur":3859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/School/Edu Game/Other/demo/Sailing With Gods Song Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1696983305916354, "dur":64785, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1696983305985402, "dur":1014, "ph":"X", "name": "ProfilerWriteOutput" }
+,

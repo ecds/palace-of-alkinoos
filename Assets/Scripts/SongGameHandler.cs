@@ -10,11 +10,13 @@ public class SongGameHandler : MonoBehaviour
     //variables
 
     public float score = 0;
-    public GameObject scoreText;
+    private float p1Score = 0, p2Score = 0;
+    public GameObject scoreText, p1ScoreText, p2ScoreText;
 
     public string currLyrics;
     public GameObject lyricsText, instructionsText;
     public bool gameStarted = false;
+    public bool singlePlayer;
 
 
     public GameObject menu;
@@ -24,10 +26,14 @@ public class SongGameHandler : MonoBehaviour
     public List<string> lyrics = new List<string>();
 
     private AudioSource adSource;
+    
+    public AudioSource cSong;
 
     //public AudioClip[] adClips;
     public List<AudioClip> adClips = new List<AudioClip>();
     public int numTimesPlayed = 0;
+
+    private bool whichPlayer = false;
 
     public GameObject audioPeererMic, audioPeererSong;
 
@@ -65,28 +71,41 @@ public class SongGameHandler : MonoBehaviour
         peerScriptMic = audioPeererMic.GetComponent<AudioPeerColton>();
         peerScriptSong = audioPeererSong.GetComponent<AudioPeerSong>();
 
+        switch (modeHolder.modeType)
+        {
+            case "Alone":
+                singlePlayer = true;
+                break;
+            case "Together":
+                singlePlayer = false;
+                break;
+        }
 
         switch (modeHolder.songType)
         {
             case "Party":
                 whatSong = partySource;
+                cSong = GameObject.Find("Suitors Are Gone").GetComponent<AudioSource>();
                 break;
             case "Sorrow":
                 whatSong = sorrowSouce;
+                cSong = GameObject.Find("Cyclops Sadness").GetComponent<AudioSource>();
                 break;
             case "War":
                 whatSong = warSource;
+                cSong = GameObject.Find("Suitors Are Gone").GetComponent<AudioSource>();
                 break;
             case "Wisdom":
                 whatSong = wisdomSource;
+                cSong = GameObject.Find("Cyclops Sadness").GetComponent<AudioSource>();
                 break;
         }
 
-
+        cSong.Play();
         
 
         //Pull a list of lyrics and their assossiated sounds.
-        foreach (Transform child in partySource.transform)
+        foreach (Transform child in whatSong.transform)
         {
             lyrics.Add(child.GetComponent<Text>().text);
             adClips.Add(child.GetComponent<AudioSource>().clip);
@@ -123,7 +142,22 @@ public class SongGameHandler : MonoBehaviour
                 //
                 if (numTimesPlayed < adClips.Count)
                 {
-                    PlayNextClip(true);
+                    if (singlePlayer)
+                    {
+                        PlayNextClip(true);
+                    }
+                    if (!singlePlayer)
+                    {
+                        //this, in multiplayer, lets you play the same clip twice, setting which player has a higher score.
+                        if (!whichPlayer)
+                        {
+                            PlayNextClip(false);
+                        }
+                        else
+                        {
+                            PlayNextClip(true);
+                        }
+                    }
                 }
 
 
@@ -142,8 +176,25 @@ public class SongGameHandler : MonoBehaviour
                 isListening = false;
 
                 instructionsText.GetComponentInChildren<Text>().text = "Listen to what is said. Press Space to speak it back.";
-                lyricsText.GetComponentInChildren<Text>().text = "Press E to start.";
-                scoreText.GetComponentInChildren<Text>().text = "Score: " + score;
+                if (singlePlayer)
+                {
+                    lyricsText.GetComponentInChildren<Text>().text = "Press E to start.";
+                    scoreText.GetComponentInChildren<Text>().text = "Score: " + score;
+                }
+                if (!singlePlayer)
+                {
+                    if (!whichPlayer)
+                    {
+                        p1ScoreText.GetComponentInChildren<Text>().text = "Score: " + p1Score;
+                    }                    
+                    else
+                    {
+                        p2ScoreText.GetComponentInChildren<Text>().text = "Score: " + p2Score;
+                    }
+
+                    whichPlayer = !whichPlayer;
+
+                }
             }
 
             if (isListening) 
@@ -196,13 +247,40 @@ public class SongGameHandler : MonoBehaviour
 
     void FinishGame()
     {
+        cSong.Stop();
+
         var scoreHolder = menu.GetComponent<MenuScript>();
         scoreHolder.finalScore = score;
+        if (!singlePlayer)
+        {
+            scoreHolder.p1FinalScore = p1Score;
+            scoreHolder.p2FinalScore = p2Score;
+        }
+
 
         winScreen.SetActive(true);
 
-        winScreen.GetComponentInChildren<Text>().text = "Your score is: " + scoreHolder.finalScore;
+        if (singlePlayer)
+        {
+            winScreen.GetComponentInChildren<Text>().text = "Your score is: " + scoreHolder.finalScore;
+        }
+        else
+        {
+            string whowonyoudecide = "";
+            if (p1Score > p2Score)
+            {
+                whowonyoudecide = "Player 1 wins!";
+            }
+            else
+            {
+                whowonyoudecide = "Player 2 wins!";
+            }
+            winScreen.GetComponentInChildren<Text>().text = "Player 1's score is: " + scoreHolder.p1FinalScore +
+                "\nPlayer 2's score is: " + scoreHolder.p2FinalScore + "\n"+ whowonyoudecide;
+        }
 
+
+        //cleanup
         gameUI.SetActive(false);
         gameObject.SetActive(false);
 
@@ -242,7 +320,15 @@ public class SongGameHandler : MonoBehaviour
         }
         Mathf.Clamp01(newScore);
         score += newScore;
-
+        
+        if (!whichPlayer)
+        {
+            p1Score += newScore;
+        }
+        if (whichPlayer)
+        {
+            p2Score += newScore;
+        }
 
 
         //this one takes a long time. also broken

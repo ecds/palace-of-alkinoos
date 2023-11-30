@@ -10,7 +10,7 @@ public class MenuScript : MonoBehaviour
 
     //to be given after the game
     public float finalScore;
-
+    public float p1FinalScore, p2FinalScore;
 
     // Start is called before the first frame update
     void Start()

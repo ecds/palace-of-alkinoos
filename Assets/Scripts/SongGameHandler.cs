@@ -85,7 +85,7 @@ public class SongGameHandler : MonoBehaviour
         {
             case "Party":
                 whatSong = partySource;
-                cSong = GameObject.Find("Suitors Are Gone").GetComponent<AudioSource>();
+                cSong = GameObject.Find("S4").GetComponent<AudioSource>();
                 break;
             case "Sorrow":
                 whatSong = sorrowSouce;

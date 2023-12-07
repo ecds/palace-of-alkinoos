@@ -301,6 +301,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1151153405}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &189632553
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189632549}
+  m_Enabled: 1
 --- !u!1 &716154425
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,14 +449,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!81 &189632553
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189632549}
-  m_Enabled: 1
 --- !u!1 &1068658290
 GameObject:
   m_ObjectHideFlags: 0
